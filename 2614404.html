@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="d3lib.js"></script>
+    <title>2614404_D3_Assignment</title>
+    <link rel="stylesheet" type="text/css" href="./d3CSS.CSS">
+   
+</head>
+ 
+ 
+<body>
+ 
+        <div class="map-layout" id="map">
+ 
+    </div>
+ 
+    <div class="slider-container">
+        <label class="slider-label" for="citySlider"> Slide below to Display Cities: <span id="sliderValue"></span></label>
+        <input type="range" id="citySlider" min="1" max="500" value="10" oninput="loadtownsandCities()">
+    </div>
+ 
+    <div class="refresh-button-container">
+        <button class="refresh-button" id="reloadButton">
+        Refresh</button>
+    </div>
+
+   
+    <script src="d3javascript.js"></script>
+ 
+ 
+</body>
+ 
+</html>

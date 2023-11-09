@@ -1,0 +1,99 @@
+body {
+    background: rgb(241, 235, 235);  
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.country {
+    fill: rgb(216, 195, 248);
+    stroke: black;
+    stroke-width: 1.0;
+}
+
+.towns {
+   
+    stroke-width: 1px;
+    stroke: black;
+    fill: rgb(68, 201, 16);
+    background-repeat: no-repeat;
+   
+
+}
+
+.towns:hover {
+    width: 45px  
+        
+}
+
+.city_name {
+    fill: black;
+    font-size: 15px;
+   }
+
+
+.refresh-button {
+    background-color: rgb(192, 190, 190);
+    color: black;
+    font-weight: bold;
+    border: solid;
+     height: 35px;
+    width: 200px; 
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    align-items: center;
+}
+
+
+.refresh-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+ .map-layout{
+
+    display: flex; 
+    justify-content: center;
+    
+} 
+
+.slider-container {
+    
+    color:black;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px;
+    margin-top: 20px; /* Push to the bottom */
+
+}
+
+.slider-label {
+    font-size: 14px;
+}
+
+.slider-instruction {
+
+    margin: 10px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 400px;
+    margin-top: auto;  } Push to the bottom */
+
+
+.slider-instruction:hover {
+
+    background-color: rgb(34, 151, 184); color: white; font-style: italic;
+    transition: 0.15;
+} 
+
+#citySlider{
+    width: 500px;
+}
+
